@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c0129ca8201b4b41a02aeeddb8e0b92, type: 3}
+  m_Name: NoaSchedule
+  m_EditorClassIdentifier: Assembly-CSharp::ScheduleData
+  npcName: Noa
+  npcDescription: The central character. Sensitive, creative, quietly struggling.
+  entries:
+  - day: -1
+    startHour: 7
+    endHour: 9
+    action: 7
+    waypointName: 
+    dialogueKey: 
+    animationTrigger: 
+  - day: -1
+    startHour: 9
+    endHour: 12
+    action: 5
+    waypointName: 
+    dialogueKey: 
+    animationTrigger: 
+  - day: -1
+    startHour: 12
+    endHour: 13
+    action: 4
+    waypointName: 
+    dialogueKey: 
+    animationTrigger: 
+  - day: -1
+    startHour: 13
+    endHour: 14
+    action: 7
+    waypointName: 
+    dialogueKey: 
+    animationTrigger: 

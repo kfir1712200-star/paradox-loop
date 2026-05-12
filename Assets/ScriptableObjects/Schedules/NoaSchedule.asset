@@ -1,0 +1,228 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c0129ca8201b4b41a02aeeddb8e0b92, type: 3}
+  m_Name: NoaSchedule
+  m_EditorClassIdentifier: Assembly-CSharp::ScheduleData
+  npcName: Noa
+  npcDescription: A quiet student hiding a painful secret. The player must discover
+    what's troubling her and prevent the tragedy.
+  entries:
+  - day: 0
+    startHour: 7
+    endHour: 8
+    action: 1
+    waypointName: SchoolEntrance
+    dialogueKey: noa_sun_morning
+    animationTrigger: 
+  - day: 0
+    startHour: 8
+    endHour: 10
+    action: 2
+    waypointName: Classroom_A
+    dialogueKey: noa_sun_class1
+    animationTrigger: 
+  - day: 0
+    startHour: 10
+    endHour: 11
+    action: 4
+    waypointName: Cafeteria_Corner
+    dialogueKey: noa_sun_break
+    animationTrigger: 
+  - day: 0
+    startHour: 11
+    endHour: 13
+    action: 2
+    waypointName: Classroom_A
+    dialogueKey: noa_sun_class2
+    animationTrigger: 
+  - day: 0
+    startHour: 13
+    endHour: 14
+    action: 1
+    waypointName: SchoolEntrance
+    dialogueKey: noa_sun_leaving
+    animationTrigger: 
+  - day: 1
+    startHour: 7
+    endHour: 8
+    action: 1
+    waypointName: SchoolEntrance
+    dialogueKey: noa_mon_morning
+    animationTrigger: 
+  - day: 1
+    startHour: 8
+    endHour: 10
+    action: 2
+    waypointName: Classroom_B
+    dialogueKey: noa_mon_class1
+    animationTrigger: 
+  - day: 1
+    startHour: 10
+    endHour: 11
+    action: 7
+    waypointName: Library_Desk
+    dialogueKey: noa_mon_library
+    animationTrigger: 
+  - day: 1
+    startHour: 11
+    endHour: 13
+    action: 2
+    waypointName: Classroom_B
+    dialogueKey: noa_mon_class2
+    animationTrigger: 
+  - day: 1
+    startHour: 13
+    endHour: 14
+    action: 1
+    waypointName: Bathroom_Hallway
+    dialogueKey: noa_mon_alone
+    animationTrigger: 
+  - day: 2
+    startHour: 7
+    endHour: 8
+    action: 1
+    waypointName: SchoolEntrance
+    dialogueKey: noa_tue_morning
+    animationTrigger: 
+  - day: 2
+    startHour: 8
+    endHour: 10
+    action: 2
+    waypointName: Classroom_A
+    dialogueKey: noa_tue_class1
+    animationTrigger: 
+  - day: 2
+    startHour: 10
+    endHour: 11
+    action: 8
+    waypointName: Hallway_Lockers
+    dialogueKey: noa_tue_bullying_event
+    animationTrigger: 
+  - day: 2
+    startHour: 11
+    endHour: 13
+    action: 2
+    waypointName: Classroom_A
+    dialogueKey: noa_tue_class2
+    animationTrigger: 
+  - day: 2
+    startHour: 13
+    endHour: 14
+    action: 7
+    waypointName: Rooftop
+    dialogueKey: noa_tue_rooftop
+    animationTrigger: 
+  - day: 3
+    startHour: 7
+    endHour: 8
+    action: 1
+    waypointName: SchoolEntrance
+    dialogueKey: noa_wed_morning
+    animationTrigger: 
+  - day: 3
+    startHour: 8
+    endHour: 10
+    action: 2
+    waypointName: Classroom_B
+    dialogueKey: noa_wed_class1
+    animationTrigger: 
+  - day: 3
+    startHour: 10
+    endHour: 11
+    action: 4
+    waypointName: Cafeteria_Corner
+    dialogueKey: noa_wed_break
+    animationTrigger: 
+  - day: 3
+    startHour: 11
+    endHour: 13
+    action: 2
+    waypointName: Classroom_B
+    dialogueKey: noa_wed_class2
+    animationTrigger: 
+  - day: 3
+    startHour: 13
+    endHour: 14
+    action: 1
+    waypointName: SchoolEntrance
+    dialogueKey: noa_wed_leaving
+    animationTrigger: 
+  - day: 4
+    startHour: 7
+    endHour: 8
+    action: 1
+    waypointName: SchoolEntrance
+    dialogueKey: noa_thu_morning
+    animationTrigger: 
+  - day: 4
+    startHour: 8
+    endHour: 10
+    action: 2
+    waypointName: Classroom_A
+    dialogueKey: noa_thu_class1
+    animationTrigger: 
+  - day: 4
+    startHour: 10
+    endHour: 11
+    action: 7
+    waypointName: Counselor_Office
+    dialogueKey: noa_thu_counselor
+    animationTrigger: 
+  - day: 4
+    startHour: 11
+    endHour: 13
+    action: 2
+    waypointName: Classroom_A
+    dialogueKey: noa_thu_class2
+    animationTrigger: 
+  - day: 4
+    startHour: 13
+    endHour: 14
+    action: 7
+    waypointName: Library_Desk
+    dialogueKey: noa_thu_library
+    animationTrigger: 
+  - day: 5
+    startHour: 7
+    endHour: 8
+    action: 1
+    waypointName: SchoolEntrance
+    dialogueKey: noa_fri_morning
+    animationTrigger: 
+  - day: 5
+    startHour: 8
+    endHour: 10
+    action: 2
+    waypointName: Classroom_A
+    dialogueKey: noa_fri_class1
+    animationTrigger: 
+  - day: 5
+    startHour: 10
+    endHour: 11
+    action: 7
+    waypointName: Bathroom_Hallway
+    dialogueKey: noa_fri_break
+    animationTrigger: 
+  - day: 5
+    startHour: 11
+    endHour: 13
+    action: 2
+    waypointName: Classroom_A
+    dialogueKey: noa_fri_class2
+    animationTrigger: 
+  - day: 5
+    startHour: 13
+    endHour: 14
+    action: 8
+    waypointName: Rooftop
+    dialogueKey: noa_fri_finale
+    animationTrigger: 
